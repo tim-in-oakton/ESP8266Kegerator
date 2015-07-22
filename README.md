@@ -1,4 +1,5 @@
 The ESP8266 Kegerator Project – 
+(see the word doc in the documentation section for a more readable version of this)
 
 Making native calls to AWS with a $3 Arduino-compatible wireless SOC module from Espressif
 What it does – when beer is poured, this project posts a JSON “beer event” message to an AWS SNS topic.  If the module can’t connect to the last stored wireless network, it turns into an AP itself (“Confused Kegerator needs love”, no wireless PW) and starts a simple web server.  If you log into the web server (configured at 192.168.4.1), you can provide all the configuration info required to get online and post to an AWS SNS topic.  If beer isn’t your thing, you could instead log the temperature of your pool, the humidity of your toolbox or when the mailman opens your mailbox to an SNS topic (which can send you an email, SNS, poke a Lambda function, feed an SQS queue, etc…..  once in the cloud you can do ANYTHING with the data).
