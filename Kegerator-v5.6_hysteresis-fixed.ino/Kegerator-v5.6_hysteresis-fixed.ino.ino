@@ -11,9 +11,6 @@
 //
 //  Things to add -
 //
-//  2 - Tricolor LED for status - red is looking for connectivity, red blinking is FUBAR, green is good, graple is "I'm an AP, call me"
-//          blue is "someone is pouring beer".  Maybe other colors will be added to call out other states.
-//
 //  Don't Worry, Be Happy, Have a Homebrew!!
 //
 
