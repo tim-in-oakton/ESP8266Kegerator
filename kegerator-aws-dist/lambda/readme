@@ -1,0 +1,14 @@
+Readme file for Lambda portion of Kegerator in the Cloud
+
+1. kegerator.zip can be uploaded to AWS Lambda or Amazon S3 and referenced for use.
+
+2. Runtime is node.js
+
+3. Execution role for the function is 'Basic Execution Role'
+
+4. Memory allocation is 1.5GB
+
+5. Timeout is 10 seconds.
+
+6. Handler is 'kegerator.handler'
+

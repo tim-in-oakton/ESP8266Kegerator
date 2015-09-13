@@ -1,0 +1,9 @@
+Readme file for the Node.js app portion of the Kegerator in the Cloud
+
+1. Unzip the contents to the file system
+
+2. Install node and npm
+
+3. Install express and redis
+
+4. Run the server with 'nohup sudo node app.js >/dev/null 2>&1 &'

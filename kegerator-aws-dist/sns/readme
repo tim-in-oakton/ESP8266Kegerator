@@ -1,0 +1,8 @@
+Readme file for SNS portion of Kegerator in the Cloud
+
+1. Create a SNS topic
+
+2. Subscribe the Lambda function to the Topic
+
+3. Test publishing from the topic to the Lambda function using mockdata
+

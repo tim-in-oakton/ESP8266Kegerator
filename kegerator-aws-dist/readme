@@ -1,0 +1,22 @@
+Readme file for the AWS portion of Kegerator in the Cloud
+
+Kegerator in the Cloud is served by components running in Amazon Web Services.
+All services are deployed within the same region.
+
+The readme files contained within this distro are not intended to replace the vast amount of 
+documentation available at http://aws.amazon.com/documentation
+
+The recommended order of creation is ..
+
+1. VPC
+2. Elasticache/Redis cache node in private subnet
+3. EC2 instance in public subnet for Node.js app
+4. Lambda function
+5. SNS topic
+
+Data enters AWS at the SNS topic .. SNS -> Lambda f(x) -> Node app -> Redis
+Dashboard page queries the Node.js app, which in turn queries Redis for data
+
+Enjoy!
+
+John Stamper
